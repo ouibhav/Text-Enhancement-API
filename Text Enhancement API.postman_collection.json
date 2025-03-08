@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "5993201b-005d-4d2c-afef-7b51029bda49",
+		"name": "Text Enhancement API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42375702"
+	},
+	"item": [
+		{
+			"name": "enhance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\": \"Okay will help do your work please send it first\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/enhance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"enhance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"I like coding.\",\r\n  \"modification\": \"Make it more detailed\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/modify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"modify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\": \"I find immense satisfaction in the problem-solving aspects of coding, particularly the challenge of translating complex ideas into elegant and efficient lines of code. I enjoy working with different programming languages and exploring their unique capabilities to build software applications and contribute to innovative projects. The constant learning and evolution within the field of coding keeps me engaged and motivated.\",\r\n    \"modification\": \"Make it short\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/modify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"modify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
