@@ -38,10 +38,9 @@ node app.js
 ```
 - The API will be running at http://localhost:8000
 
-## Setup Instructions
-### API Documentation
+## API Documentation
 
-#### 1. Text Enhancement
+### 1. Text Enhancement
 - **Endpoint :** POST /enhance
 - **Description :** Enhances text by making it more clear and refined.
 - **Request :**
@@ -57,7 +56,7 @@ node app.js
 }
 ```
 
-#### 2. Text Modification
+### 2. Text Modification
 - **Endpoint :** POST /modify
 - **Description :** Modifies text based on user instructions (shorten, lengthen, change tone).
 - **Request :**
