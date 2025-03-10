@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-2.0-fla sh" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
 app.post('/enhance', async (req, res) => {
     const text = req.body.text;
